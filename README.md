@@ -12,7 +12,7 @@ ACE2005 can be found here: https://catalog.ldc.upenn.edu/LDC2006T06
 ### To evaluate a setting with serveral random trials, execute
 python run_experiments_multi.py
 
-#### Some main hyperparameters in train_MLBiNet.py include:
+#### Main hyperparameters in train_MLBiNet.py include:
 --tagging_mechanism,   mechanism to model event inter-dependency, you can choose one of "forward_decoder", "backward_decoder" or "bidirectional_decoder"
 
 --num_tag_layers,   number of tagging layers, 1 indicates that we do sentence-level ED, 2 indicates that information of adjacent sentences are aggregated, ...
