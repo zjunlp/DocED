@@ -15,13 +15,13 @@ python run_experiments_multi.py
 #### Main hyperparameters in train_MLBiNet.py include:
 --tagging_mechanism,   mechanism to model event inter-dependency, you can choose one of "forward_decoder", "backward_decoder" or "bidirectional_decoder"
 
---num_tag_layers,   number of tagging layers, 1 indicates that we do sentence-level ED, 2 indicates that information of adjacent sentences are aggregated, ...
+--num_tag_layers,   number of tagging layers, 1 indicates that we do sentence-level ED, 2 indicates that information of adjacent sentences were aggregated, ...
 
---max_doc_len,   maximum number of consecutive sentences are extracted as a mini-document
+--max_doc_len,   maximum number of consecutive sentences are extracted as a mini-document, we can set it as 8 or 16
 
---tag_dim,   dimension of an uni-directional event tagging vector, we can set it as 8 or 16
+--tag_dim,   dimension of an uni-directional event tagging vector
 
---self_att_not,   whether to apply the self-attention mechanism in sentence encoding 
+--self_att_not,   whether to apply self-attention mechanism in sentence encoder 
 
 ## Main results
 ### Overall performance on ACE2005
