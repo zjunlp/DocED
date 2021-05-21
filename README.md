@@ -1,5 +1,5 @@
 # DocED
-This repository is the official implementation of our ACL paper [MLBiNet: A Cross-Sentence Collective Event Detection Network](https://arxiv.org/pdf/2105.09458v1.pdf).
+This repository is the official implementation of the ACL 2021 paper [MLBiNet: A Cross-Sentence Collective Event Detection Network](https://arxiv.org/pdf/2105.09458v1.pdf).
 
 ## Requirements
 ### To install basic requirements:
