@@ -1,5 +1,5 @@
 # DocED
-This repository is the official implementation of MLBiNet: A Cross-Sentence Collective Event Detection Network.
+This repository is the official implementation of our ACL paper [MLBiNet: A Cross-Sentence Collective Event Detection Network](https://arxiv.org/pdf/2105.09458v1.pdf).
 
 ## Requirements
 ### To install basic requirements:
@@ -34,3 +34,19 @@ where 1/1 means one sentence that has one event; otherwise, 1/n is used.
 
 ### Performance of our proposed method with different multi-layer settings or decoder methods
 ![image](https://user-images.githubusercontent.com/32415352/118843910-11cfcd80-b8fd-11eb-965c-fbcde1319983.png)
+
+## How to Cite
+
+```bibtex
+@inproceedings{ACL2021_MLBiNet,
+  author    = {Dongfang Lou and
+               Zhilin Liao and
+               Shumin Deng and
+               Ningyu Zhang and
+               Huajun Chen},
+  title     = {MLBiNet: A Cross-Sentence Collective Event Detection Network},
+  booktitle = {{ACL}},
+  publisher = {Association for Computational Linguistics},
+  year      = {2021}
+}
+```
