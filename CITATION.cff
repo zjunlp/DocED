@@ -1,0 +1,31 @@
+cff-version: "1.0.0"
+message: "If you use this code, please cite it using these metadata."
+title: "doced"
+repository-code: "https://github.com/zjunlp/DocED"
+authors: 
+  - family-names: Lou
+    given-names: Dongfang
+  - family-names: Liao
+    given-names: Zhilin
+  - family-names: Deng
+    given-names: Shumin
+  - family-names: Zhang
+    given-names: Ningyu
+  - family-names: Chen
+    given-names: Huajun
+preferred-citation:
+  type: article
+  title: "MLBiNet: A Cross-Sentence Collective Event Detection Network"
+  authors:
+  - family-names: Lou
+    given-names: Dongfang
+  - family-names: Liao
+    given-names: Zhilin
+  - family-names: Deng
+    given-names: Shumin
+  - family-names: Zhang
+    given-names: Ningyu
+  - family-names: Chen
+    given-names: Huajun
+  journal: "arXiv preprint arXiv:2105.09458"
+  year: 2021
